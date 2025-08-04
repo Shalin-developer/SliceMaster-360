@@ -1,0 +1,94 @@
+{
+    "name": "XRInputActions",
+    "maps": [
+        {
+            "name": "VR Controllers",
+            "id": "1e6dbdfe-3114-4478-a2dd-c8104a088906",
+            "actions": [
+                {
+                    "name": "LeftHand_Position",
+                    "type": "Value",
+                    "id": "13f2abe2-25ac-46f4-ab56-f85519f3d063",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftHand_Rotation",
+                    "type": "Value",
+                    "id": "85d64dbe-74a6-4e69-9e0a-e9a2cf4a871f",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightHand_Position",
+                    "type": "Value",
+                    "id": "4539a971-69af-4efb-b84d-c41ff2573ec8",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightHand_Rotation",
+                    "type": "Value",
+                    "id": "2c42fcc4-d8dd-4368-b198-c62c069fcf33",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "80bfce84-6663-4879-9082-6a6b8e5f1991",
+                    "path": "<XRController>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftHand_Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "082d8184-0d28-49fb-b03c-11328bf6ed8e",
+                    "path": "<XRController>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftHand_Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2e235d4-3516-493f-881b-96b8217b842e",
+                    "path": "<XRController>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHand_Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "de82ff87-28e4-4e0f-a23c-51a01c1d84a3",
+                    "path": "<XRController>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHand_Rotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
